@@ -21,10 +21,10 @@
   ![photo_5348111539636387957_y (1)](https://user-images.githubusercontent.com/78792353/195453153-ef0f3ce4-9f29-4a34-a455-54aadfd3ff78.jpg)
   ![photo_5348111539636387944_y (1)](https://user-images.githubusercontent.com/78792353/195453274-c5f099cd-405d-4c88-9b09-3736162fcf33.jpg)
 
-  * ### if you want to add or view students of a group, tap on the corresponding element of the group list. You will go to the "group students" tab.
+  * ### If you want to add or view students of a group, tap on the corresponding element of the group list. You will go to the "students of concrete group" tab.
   ![photo_5348111539636388043_y (1)](https://user-images.githubusercontent.com/78792353/195453568-2f10688b-0358-4012-804f-8353c5faaf64.jpg)
 
-  * ### To add a student, click on the button with the icon in the lower right corner. The Add Student dialog box appears, where you need to enter the student's name.
+  * ### To add a student, click on the button with the icon ![add-contact (4)](https://user-images.githubusercontent.com/78792353/195464375-66725e80-e781-4df3-a128-76f199a7e53b.png) in the lower right corner. The Add Student dialog box appears, where you need to enter the student's name.
   ![photo_5348111539636388045_y (1)](https://user-images.githubusercontent.com/78792353/195454814-0f93dba5-8d80-492c-a193-afe56b00f658.jpg)
 
   * ###  Аfter that, it will be displayed in the list of students of the group.
@@ -64,10 +64,10 @@
   * ### You can delete an item from this list by clicking the light red button on the right side of the student list item.A dialog box will appear to confirm the deletion.
   ![photo_5348111539636387958_y (1)](https://user-images.githubusercontent.com/78792353/195457096-a1d62331-a2b8-407b-ae2c-49dac7909e73.jpg)
 
-  * ### when you click on a student, you will go to the student information tab. The name search function is available in the Students tab. To do this, click on the icon or the line to the right of it. next, start typing the student's name to filter the list by name.
+  * ### When you click on a student, you will go to the student information tab. The name search function is available in the Students tab. To do this, click on the icon ![add-contact (3)](https://user-images.githubusercontent.com/78792353/195464034-6b70fa1b-9e6c-4509-bc5c-2fd92613c9d2.png) or the line to the right of it. next, start typing the student's name to filter the list by name.
   ![photo_5348111539636387954_y (1)](https://user-images.githubusercontent.com/78792353/195457285-d0b0b254-6262-4572-8e59-d2699263bb7c.jpg)
 
-  * ### To import new groups and students, hold down the icon button in the groups tab. A dialog box will appear with buttons where you need to click on import json.
+  * ### To import new groups and students, hold down the icon button in the Groups tab. A dialog box will appear with buttons where you need to click on import json.
     * ##### After that, you will go to your file manager, where you select the json file.  
   ![photo_5348111539636387955_y (2) (1)](https://user-images.githubusercontent.com/78792353/195461126-8c60360f-ce70-48b7-8313-13b1aa278a4a.jpg)
   * ### Example file:
@@ -115,7 +115,7 @@
       }
   '''
 
-  * ### To export data from the application, hold down the button with the icon in the groups tab. a dialog box with buttons will appear. click on the learn json button to export the json file of all students and the import csv button to export the csv file of all students.
+  * ### To export data from the application, hold down the button with the icon in the Groups tab. A dialog box with buttons will appear. Click on the learn json button to export the json file of all students and the import csv button to export the csv file of all students.
 ![photo_5348111539636387955_y (2) (2)](https://user-images.githubusercontent.com/78792353/195461092-b3a79c01-706a-4b42-bae6-33175038d96b.jpg)
 
 
