@@ -1,5 +1,5 @@
 
-# ![key-l-of-a-keyboard (1) (1)](https://user-images.githubusercontent.com/78792353/195460670-bd7cbad9-783d-455e-9413-454b497346b0.png) Labman
+# ![key-l-of-a-keyboard22 (1) (1)](https://user-images.githubusercontent.com/78792353/195466447-3af5057a-684f-42b7-8751-11d04818c370.png) Labman
 #### Application for grading students and subsequent uploading of information in JSON and CSV formats
 #### The project is written in Kotlin. The Room database is used for data storage.
 ## Usage tutorial with screenshots
