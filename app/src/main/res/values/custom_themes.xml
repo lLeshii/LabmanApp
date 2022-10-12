@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomTheme" parent="Theme.MaterialComponents.Bridge">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/siren</item>
+        <item name="colorPrimaryVariant">@color/white_gray</item>
+        <item name="colorOnPrimary">@color/back_purple</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_butt</item>
+        <item name="colorSecondaryVariant">@color/salat</item>
+        <item name="colorOnSecondary">@color/bright_purple</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/siren</item>
+        <item name="android:navigationBarColor">@color/siren</item>
+        <item name="android:fontFamily">@font/montserrat_alternates_semibold</item>
+        <item name="android:fillColor">@color/white_gray</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>

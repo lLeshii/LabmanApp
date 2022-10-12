@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name" translatable="false">LabmanV2</string>
+    <string name="title_activity_main" translatable="false">MainActivity</string>
+    <string name="title_students" translatable="false">Students</string>
+    <string name="title_groups" translatable="false">Groups</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

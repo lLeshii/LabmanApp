@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="16dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginBottom="8dp"
+    app:cardCornerRadius="250dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/group_round">
+
+        <TextView
+            android:id="@+id/textGrName"
+            android:layout_width="181dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="12dp"
+            android:ellipsize="end"
+            android:fontFamily="@font/montserrat_alternates_bold2"
+            android:maxLines="2"
+            android:paddingHorizontal="12dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="24sp"
+            tools:text="Group Name" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_toEndOf="@id/textGrName"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_labs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/montserrat_alternates_semibold"
+                android:text="TextView"
+                android:textSize="16sp"
+                tools:text="L:2 T:2 CW:5" />
+
+            <TextView
+                android:id="@+id/textTests"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/montserrat_alternates_semibold"
+                android:text="TextView"
+                android:textSize="16sp"
+                tools:text="L:2 T:2 CW:5" />
+
+            <TextView
+                android:id="@+id/textCW"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_alternates_semibold"
+                android:text="TextView"
+                android:textSize="16sp"
+                tools:text="L:2 T:2 CW:5" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/grDelButton"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="16dp"
+            android:layout_weight="1"
+            android:background="@drawable/del_button"
+            android:contentDescription="@string/app_name" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

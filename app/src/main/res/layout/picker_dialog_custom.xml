@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="12dp"
+    >
+
+    <LinearLayout
+        android:layout_width="338dp"
+        android:layout_height="236dp"
+        android:background="@drawable/dialog_form"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:layout_marginTop="12dp"
+            android:gravity="center"
+            android:text="Put value"
+            android:textSize="22sp" />
+
+        <com.shawnlin.numberpicker.NumberPicker
+            android:id="@+id/pick_numb"
+            android:layout_width="324dp"
+            android:layout_height="102dp"
+            android:layout_margin="8dp"
+            android:animateLayoutChanges="false"
+            android:contentDescription="@string/title_activity_main"
+
+            android:orientation="vertical"
+            android:scrollbarAlwaysDrawHorizontalTrack="false"
+            android:theme="@style/CustomTheme"
+            app:np_dividerColor="@color/salat"
+            app:np_dividerDistance="100dp"
+            app:np_dividerType="underline"
+            app:np_hideWheelUntilFocused="false"
+            app:np_max="10"
+            app:np_min="0"
+            app:np_orientation="horizontal"
+            app:np_scrollerEnabled="true"
+            app:np_selectedTextColor="@color/white_gray"
+            app:np_selectedTextSize="48sp"
+            app:np_selectedTextStrikeThru="false"
+            app:np_selectedTextUnderline="false"
+            app:np_textColor="@color/white_gray"
+            app:np_textSize="36sp"
+            app:np_textUnderline="false"
+            app:np_value="5"
+            app:np_width="150dp"
+            app:np_wrapSelectorWheel="false" />
+
+        <Button
+            android:id="@+id/pick_button"
+            android:layout_width="105dp"
+            android:layout_height="58dp"
+            android:layout_gravity="bottom|center"
+            android:height="20dp"
+            android:background="@drawable/group_round"
+            android:insetTop="12dp"
+            android:text="Put" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

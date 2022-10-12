@@ -1,0 +1,85 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="16dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginBottom="8dp"
+    app:cardCornerRadius="250dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/group_round">
+
+        <TextView
+            android:id="@+id/stName"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="12dp"
+            android:ellipsize="end"
+            android:fontFamily="@font/montserrat_alternates_bold2"
+            android:maxLines="3"
+            android:paddingHorizontal="12dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="18sp"
+            tools:text="Name Name" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_toEndOf="@id/stName"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/st_text_labs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/montserrat_alternates_semibold"
+                android:text="TextView"
+                android:textSize="16sp"
+                tools:text="L:2 T:2 CW:5" />
+
+            <TextView
+                android:id="@+id/st_textTests"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/montserrat_alternates_semibold"
+                android:text="TextView"
+                android:textSize="16sp"
+                tools:text="L:2 T:2 CW:5" />
+
+            <TextView
+                android:id="@+id/st_textCW"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_alternates_semibold"
+                android:text="TextView"
+                android:textSize="16sp"
+                tools:text="L:2 T:2 CW:5" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/stDelButton"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="16dp"
+            android:layout_weight="1"
+            android:background="@drawable/del_button"
+            android:contentDescription="@string/app_name" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
