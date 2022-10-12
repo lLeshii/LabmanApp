@@ -22,8 +22,8 @@
         <TextView
             android:id="@+id/textViewList"
             android:layout_width="match_parent"
-            android:layout_height="33dp"
-            android:layout_marginTop="12dp"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
             android:gravity="center"
             android:text="List: "
             android:textSize="22sp" />
@@ -46,11 +46,10 @@
 
             <Button
                 android:id="@+id/change_button"
-                android:layout_width="105dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_margin="5dp"
-                android:height="20dp"
+                android:layout_margin="7dp"
                 android:background="@drawable/group_round"
                 android:backgroundTint="@color/purple_200"
                 android:insetTop="12dp"
@@ -58,11 +57,10 @@
 
             <Button
                 android:id="@+id/pick_button2"
-                android:layout_width="105dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_margin="5dp"
-                android:height="20dp"
                 android:background="@drawable/group_round"
                 android:insetTop="12dp"
                 android:text="close" />

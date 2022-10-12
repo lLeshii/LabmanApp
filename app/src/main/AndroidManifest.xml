@@ -12,9 +12,9 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@drawable/key_l_of_a_keyboard"
+        android:icon="@drawable/key_l_of_a_keyboard22"
         android:label="Labman"
-        android:roundIcon="@drawable/key_l_of_a_keyboard"
+        android:roundIcon="@drawable/key_l_of_a_keyboard22"
         android:supportsRtl="true"
         android:theme="@style/CustomTheme"
         tools:targetApi="31">

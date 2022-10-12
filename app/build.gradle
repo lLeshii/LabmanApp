@@ -59,6 +59,7 @@ dependencies {
     kapt("androidx.room:room-compiler:2.4.3")
     implementation 'io.github.ShawnLin013:number-picker:2.4.13'
     //noinspection LifecycleAnnotationProcessorWithJava8
+
     kapt 'androidx.lifecycle:lifecycle-compiler:2.5.1'
     kapt "android.arch.persistence.room:compiler:1.0.0"
 

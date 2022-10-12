@@ -22,8 +22,9 @@
         <TextView
             android:id="@+id/firstTitle"
             android:layout_width="match_parent"
-            android:layout_height="33dp"
+            android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
+            android:padding="15dp"
             android:gravity="center"
             android:text="Group constructor"
             android:textColor="@color/group_item"
@@ -37,19 +38,20 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="33dp"
+                android:layout_margin="15dp"
                 android:layout_marginTop="12dp"
                 android:gravity="center"
-                android:layout_margin="15dp"
                 android:text="Put group name:"
-                android:textSize="16sp" />
+                android:textSize="12sp" />
 
             <EditText
                 android:id="@+id/editTextGroupName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="15dp"
-                android:hint=" name here"
+                android:layout_margin="5dp"
+                android:layout_gravity="center_vertical"
                 android:ems="10"
+                android:gravity="center"
                 android:inputType="textPersonName"
                 android:padding="15dp"
                 android:text="" />
@@ -65,11 +67,11 @@
                 android:id="@+id/lab_amount"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:layout_margin="15dp"
                 android:layout_marginTop="12dp"
                 android:gravity="center_vertical"
-                android:layout_margin="15dp"
                 android:text="Lab amount:"
-                android:textSize="18sp" />
+                android:textSize="12sp" />
 
             <com.shawnlin.numberpicker.NumberPicker
                 android:id="@+id/pick_lab"
@@ -111,11 +113,11 @@
                 android:id="@+id/test_amount"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:layout_margin="15dp"
                 android:layout_marginTop="12dp"
                 android:gravity="center_vertical"
-                android:layout_margin="15dp"
                 android:text="Test amount:"
-                android:textSize="18sp" />
+                android:textSize="12sp" />
 
             <com.shawnlin.numberpicker.NumberPicker
                 android:id="@+id/pick_test"
@@ -156,11 +158,11 @@
                 android:id="@+id/cw_amount"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:layout_margin="15dp"
                 android:layout_marginTop="12dp"
                 android:gravity="center_vertical"
-                android:layout_margin="15dp"
                 android:text="CW amount:"
-                android:textSize="18sp" />
+                android:textSize="12sp" />
 
             <com.shawnlin.numberpicker.NumberPicker
                 android:id="@+id/pick_cw"

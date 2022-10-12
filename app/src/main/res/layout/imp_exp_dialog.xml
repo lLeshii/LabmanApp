@@ -47,7 +47,7 @@
             android:layout_marginTop="20dp"
             android:background="@drawable/group_round"
             android:padding="15dp"
-            android:text="Export EXCEL" />
+            android:text="Export CSV" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
