@@ -38,13 +38,12 @@
   ![photo_5348111539636387953_y](https://user-images.githubusercontent.com/78792353/195454262-f202d4f6-2e01-4495-8e3a-bf0c71ac7d79.jpg)
 
   * ### When you click on the buttons Lab | Test | CW , a dialog box will appear to select an assessment for a laboratory, test, or test. 
-  ![photo_5348111539636387952_y](https://user-images.githubusercontent.com/78792353/195454328-8e64f4d6-9201-4345-8b66-3dc310ffa255.jpg)
+![dfghj](https://user-images.githubusercontent.com/78792353/195490837-36b80e13-1587-404c-bf07-4051519a1a96.jpg)
 
-  * ### When you press these buttons, you will see a dialog box with a list of grades. 
+
+  * ### When you press these buttons, you will see a dialog box with a list of grades.
   ![photo_5348111539636388048_y (1)](https://user-images.githubusercontent.com/78792353/195455166-76a4d145-ba93-4ce8-8e02-6be802fd7f15.jpg)
 
-  * ### When you click on the rewrite button, another dialog box will appear where you can change the grade for the work. 
-  ![photo_5348111539636388049_y (1)](https://user-images.githubusercontent.com/78792353/195455350-937b219f-2fb2-472a-b43e-8ce1f5823803.jpg)
 
   * ### The plus and minus buttons are designed to increase the number of pros and cons of a student. 
   ![photo_5348111539636387949_y (1) (1)](https://user-images.githubusercontent.com/78792353/195456059-6c3df6d5-f0c8-484d-8586-58ea063b94e5.jpg)
