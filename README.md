@@ -17,7 +17,7 @@
   * ### You can edit the information about the group. To do this, hold down the group list item. You will see a dialog box with the editor of the selected group, where you can change the name of the group, the number of laboratory, control work and tests.
   ![photo_5348111539636387946_y](https://user-images.githubusercontent.com/78792353/195452958-44583c75-12af-4204-943a-c00a04ca9ec7.jpg)
 
-  * ### You can delete a group by clicking on the light red button on the right side of the group list item.A dialog box will appear to confirm the deletion.
+  * ### You can delete a group by clicking on the light red button on the right side of the group list item. A dialog box will appear to confirm the deletion.
   ![photo_5348111539636387957_y (1)](https://user-images.githubusercontent.com/78792353/195453153-ef0f3ce4-9f29-4a34-a455-54aadfd3ff78.jpg)
   ![photo_5348111539636387944_y (1)](https://user-images.githubusercontent.com/78792353/195453274-c5f099cd-405d-4c88-9b09-3736162fcf33.jpg)
 
@@ -31,17 +31,17 @@
   ![photo_5348111539636388044_y (2)](https://user-images.githubusercontent.com/78792353/195454685-b8790f63-1b0c-485b-8dd0-3c349b562ba1.jpg)
 
 
-  * ### You can delete a student by clicking on the light red button on the right side of the student list item.A dialog box will appear to confirm the deletion.
+  * ### You can delete a student by clicking on the light red button on the right side of the student list item. A dialog box will appear to confirm the deletion.
   ![photo_5348111539636388044_y (1)](https://user-images.githubusercontent.com/78792353/195454159-c5001b41-d078-4af7-8aeb-ec8a401b3caa.jpg)
 
   * ### Tap on the student to go to the student information tab. This tab displays the name of the student, the name of the group, the number of passed labs, cws, tests, as well as pros and cons.
   ![photo_5348111539636387953_y](https://user-images.githubusercontent.com/78792353/195454262-f202d4f6-2e01-4495-8e3a-bf0c71ac7d79.jpg)
 
-  * ### When you click on the buttons Lab | Test | CW , a dialog box will appear to select an assessment for a laboratory, test, or test. 
+  * ### When you click on the buttons Lab | Test | CW , a dialog box will appear to select an assessment for a lab, cw or test. 
 ![dfghj](https://user-images.githubusercontent.com/78792353/195490837-36b80e13-1587-404c-bf07-4051519a1a96.jpg)
 
 
-  * ### When you press these buttons, you will see a dialog box with a list of grades.
+  * ### When you hold down these buttons, you will see a dialog box with a list of grades.
   ![photo_5348111539636388048_y (1)](https://user-images.githubusercontent.com/78792353/195455166-76a4d145-ba93-4ce8-8e02-6be802fd7f15.jpg)
 
 
@@ -60,10 +60,11 @@
   ![photo_5348111539636387958_y](https://user-images.githubusercontent.com/78792353/195456930-ffa62f38-3ee6-455c-8c54-71d270fab434.jpg)
 
 
-  * ### You can delete an item from this list by clicking the light red button on the right side of the student list item.A dialog box will appear to confirm the deletion.
+  * ### You can delete an item from this list by clicking the light red button on the right side of the student list item. A dialog box will appear to confirm the deletion.
   ![photo_5348111539636387958_y (1)](https://user-images.githubusercontent.com/78792353/195457096-a1d62331-a2b8-407b-ae2c-49dac7909e73.jpg)
 
-  * ### When you click on a student, you will go to the student information tab. The name search function is available in the Students tab. To do this, click on the icon ![add-contact (3)](https://user-images.githubusercontent.com/78792353/195464034-6b70fa1b-9e6c-4509-bc5c-2fd92613c9d2.png) or the line to the right of it. next, start typing the student's name to filter the list by name.
+  * ### When you click on a student, you will go to the student information tab. 
+  * ### The name search function is available in the Students tab. To do this, click on the icon ![free-icon-search-3495620](https://user-images.githubusercontent.com/78792353/195492079-6effcdef-d7bd-41c5-b1f1-91b2aa5e1cce.png) or the line to the right of it. next, start typing the student's name to filter the list by name.
   ![photo_5348111539636387954_y (1)](https://user-images.githubusercontent.com/78792353/195457285-d0b0b254-6262-4572-8e59-d2699263bb7c.jpg)
 
   * ### To import new groups and students, hold down the icon button in the Groups tab. A dialog box will appear with buttons where you need to click on import json.
