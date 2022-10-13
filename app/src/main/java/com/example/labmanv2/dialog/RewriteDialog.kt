@@ -43,7 +43,7 @@ class RewriteDialog(var type: Int, var stId: Int): DialogFragment()  {
             }
         }
         picker1.minValue = 1
-        picker1.value = 1
+        picker1.value = 2
         picker1.maxValue = arList!!.size
 
         butt?.setOnClickListener {

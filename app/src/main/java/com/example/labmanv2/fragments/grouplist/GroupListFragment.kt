@@ -219,7 +219,7 @@ class  GroupListFragment: Fragment(), GroupAdapter.ItemListener, ImpExpDialog.Im
         startString = addTableColumn("Lab", lab_amount, startString)
         startString = addTableColumn("Test", test_amount, startString)
         startString = addTableColumn("CW", cw_amount, startString)
-
+        startString += ",Plus,Minus"
         var students: List<Student?> = vm.getAllStudentsNoLive()!!
 
         for(i in 0 until students.size)
@@ -266,9 +266,11 @@ class  GroupListFragment: Fragment(), GroupAdapter.ItemListener, ImpExpDialog.Im
             }
             else{
                 for(j in 0 until test_amount) {
-                    stString+=",${student!!.tests[j]}"
+                    stString+=",${student!!.cws[j]}"
                 }
             }
+
+            stString+=",${student.pluses},${student.minuses}"
             startString += stString
         }
         return startString

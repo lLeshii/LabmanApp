@@ -9,8 +9,9 @@
 
     <LinearLayout
         android:layout_width="349dp"
-        android:layout_height="408dp"
+        android:layout_height="wrap_content"
         android:background="@drawable/dialog_form"
+        android:padding="12dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -22,7 +23,7 @@
         <TextView
             android:id="@+id/firstTitle"
             android:layout_width="match_parent"
-            android:layout_height="33dp"
+            android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
             android:gravity="center"
             android:text="Choose "
@@ -32,10 +33,11 @@
             android:id="@+id/pick_lab"
             android:layout_width="324dp"
             android:layout_height="102dp"
+            android:layout_gravity="center_horizontal"
             android:layout_margin="8dp"
             android:animateLayoutChanges="false"
-            android:contentDescription="@string/title_activity_main"
 
+            android:contentDescription="@string/title_activity_main"
             android:orientation="vertical"
             android:scrollbarAlwaysDrawHorizontalTrack="false"
             android:theme="@style/CustomTheme"
@@ -54,14 +56,14 @@
             app:np_textColor="@color/white_gray"
             app:np_textSize="36sp"
             app:np_textUnderline="false"
-            app:np_value="5"
+            app:np_value="2"
             app:np_width="150dp"
             app:np_wrapSelectorWheel="false" />
 
         <TextView
             android:id="@+id/secTitle"
             android:layout_width="match_parent"
-            android:layout_height="33dp"
+            android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
             android:gravity="center"
             android:text="Put value"
@@ -71,10 +73,11 @@
             android:id="@+id/pick_numb2"
             android:layout_width="324dp"
             android:layout_height="102dp"
+            android:layout_gravity="center_horizontal"
             android:layout_margin="8dp"
             android:animateLayoutChanges="false"
-            android:contentDescription="@string/title_activity_main"
 
+            android:contentDescription="@string/title_activity_main"
             android:orientation="vertical"
             android:scrollbarAlwaysDrawHorizontalTrack="false"
             android:theme="@style/CustomTheme"

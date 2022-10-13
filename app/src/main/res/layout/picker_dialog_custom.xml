@@ -9,8 +9,9 @@
 
     <LinearLayout
         android:layout_width="338dp"
-        android:layout_height="236dp"
+        android:layout_height="wrap_content"
         android:background="@drawable/dialog_form"
+        android:padding="12dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -32,10 +33,11 @@
             android:id="@+id/pick_numb"
             android:layout_width="324dp"
             android:layout_height="102dp"
+            android:layout_gravity="center_horizontal"
             android:layout_margin="8dp"
             android:animateLayoutChanges="false"
-            android:contentDescription="@string/title_activity_main"
 
+            android:contentDescription="@string/title_activity_main"
             android:orientation="vertical"
             android:scrollbarAlwaysDrawHorizontalTrack="false"
             android:theme="@style/CustomTheme"
