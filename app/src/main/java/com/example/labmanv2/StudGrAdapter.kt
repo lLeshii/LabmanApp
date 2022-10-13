@@ -30,30 +30,9 @@ class StudentGrAdapter(var students: List<Student?>?): RecyclerView.Adapter<Stud
     override fun onBindViewHolder(holder: StudentGrHolder, position: Int) {
         var student:Student? = students!![position]
         holder.tvName.text = students!![position]?.studentName
-        holder.tvLabs.text = "Labs: ${
-            if(student!!.labs[0]==""){
-                student.labs.size.minus(1)
-            }
-            else{
-                student.labs.size
-            }
-        }"
-        holder.tvTests.text = "Tests: ${
-            if(student.tests[0]==""){
-                student.tests.size.minus(1)
-            }
-            else{
-                student.tests.size
-            }
-        }"
-        holder.tvCws.text = "CWs: ${
-            if(student.cws[0]==""){
-                student.cws.size.minus(1)
-            }
-            else{
-                student.cws.size
-            }
-        }"
+        holder.tvLabs.text = "Labs: ${student!!.labs.filterNot {str->str == "" }.size}"
+        holder.tvTests.text = "Tests: ${student!!.tests.filterNot {str->str == "" }.size}"
+        holder.tvCws.text = "CWs: ${student!!.cws.filterNot {str->str == "" }.size}"
         holder.tvDelButton.setOnClickListener{ l->listener.onItemClicked(students!![position]!!, position) }
         holder.itemView?.setOnClickListener{ view->
             var studIntent:Intent = Intent(view.context, StudAcivity::class.java)

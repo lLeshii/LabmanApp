@@ -42,30 +42,9 @@ class StudAcivity() : AppCompatActivity() {
 
         nameText?.text = "${student.studentName}"
         groupText?.text = "Group: ${student.groupName}"
-        labText?.text = "Labs: ${
-            if(student.labs[0]==""){
-                student.labs.size.minus(1)
-            }
-            else{
-                student.labs.size
-            }
-        }/${group?.labAmount}"
-        testText?.text = "Tests: ${
-            if(student.tests[0]==""){
-                student.tests.size.minus(1)
-            }
-            else{
-                student.tests.size
-            }
-        }/${group?.testAmount}"
-        cwText?.text = "CWs: ${
-            if(student.cws[0]==""){
-                student.cws.size.minus(1)
-            }
-            else{
-                student.cws.size
-            }
-        }/${group?.cwAmount}"
+        labText?.text = "Labs: ${student.labs.filterNot {str->str == "" }.size}/${group?.labAmount}"
+        testText?.text = "Tests: ${student.tests.filterNot {str->str == "" }.size}/${group?.testAmount}"
+        cwText?.text = "CWs: ${student.cws.filterNot {str->str == "" }.size}/${group?.cwAmount}"
         plusText?.text = "+:     ${student.pluses}"
         minText?.text = "-:     ${student.minuses}"
 

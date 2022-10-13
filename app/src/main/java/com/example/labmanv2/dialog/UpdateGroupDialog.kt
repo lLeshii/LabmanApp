@@ -19,20 +19,19 @@ import roomdb.Group
 import roomdb.StudentGroupViewModel
 
 class UpdateGroupDialog(var grId: Int): DialogFragment()  {
+
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         var view: View = inflater.inflate(R.layout.add_group_dialog, container, false)
-        var edText: EditText = view.findViewById(R.id.editTextGroupName)
-        var text: TextView = view.findViewById(R.id.firstTitle)
-        var lab_picker: NumberPicker = view.findViewById(R.id.pick_lab)
-        var test_picker: NumberPicker = view.findViewById(R.id.pick_test)
-        var cw_picker: NumberPicker = view.findViewById(R.id.pick_cw)
-        var cr_butt: Button? = view.findViewById(R.id.create_button)
-        var cancbutt: Button? = view.findViewById(R.id.canc_butt)
-
         var vm: StudentGroupViewModel =  ViewModelProvider(this,
             MyViewModelFactory(this.activity?.application as Application)
         )[StudentGroupViewModel::class.java]
-
+        var lab_picker: NumberPicker = view.findViewById(R.id.pick_lab)
+        var test_picker: NumberPicker = view.findViewById(R.id.pick_test)
+        var cw_picker: NumberPicker = view.findViewById(R.id.pick_cw)
+        var edText: EditText = view.findViewById(R.id.editTextGroupName)
+        var text: TextView = view.findViewById(R.id.firstTitle)
+        var cr_butt: Button? = view.findViewById(R.id.create_button)
+        var cancbutt: Button? = view.findViewById(R.id.canc_butt)
         var group:Group? = vm.getGroupById(grId)
         edText.setText(group!!.groupName!!)
         lab_picker.value = group.labAmount!!
@@ -60,8 +59,44 @@ class UpdateGroupDialog(var grId: Int): DialogFragment()  {
         cr_butt?.setOnClickListener {
 //            this.requireActivity().recreate()
             vm.update(Group(grId,edText.text.toString(),lab_picker.value,test_picker.value,cw_picker.value))
+            update_all(lab_picker.value, test_picker.value, cw_picker.value, vm)
             this.dismiss()
         }
         return view
+    }
+
+    private fun update_all(l:Int, t: Int, cw: Int, vm :StudentGroupViewModel){
+        var studs = vm.getStudentsFromGroup(vm.getGroupById(grId)!!.groupName!!)
+        for(i in 0 until studs!!.size)
+        {
+            var arList: MutableList<String>? = null
+            if(studs[i]!!.labs.size > l){
+                arList = studs[i]?.labs?.toMutableList()
+                for(j in l  until studs[i]!!.labs.size)
+                {
+                    arList!!.removeAt(l)
+                }
+                studs[i]!!.labs = arList as List<String>
+            }
+
+            if(studs[i]!!.tests.size > t){
+                arList = studs[i]?.tests?.toMutableList()
+                for(j in t  until studs[i]!!.tests.size)
+                {
+                    arList!!.removeAt(t)
+                }
+                studs[i]!!.tests = arList as List<String>
+            }
+
+            if(studs[i]!!.cws.size > cw){
+                arList = studs[i]?.cws?.toMutableList()
+                for(j in cw  until studs[i]!!.cws.size)
+                {
+                    arList!!.removeAt(cw)
+                }
+                studs[i]!!.cws = arList as List<String>
+            }
+            vm.update(studs[i]!!)
+        }
     }
 }

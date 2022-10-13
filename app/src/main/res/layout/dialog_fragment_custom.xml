@@ -8,10 +8,11 @@
     >
 
     <LinearLayout
-        android:layout_width="340dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/dialog_form"
         android:orientation="vertical"
+        android:minWidth="320dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -30,10 +31,10 @@
 
         <TextView
             android:id="@+id/listText"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="12dp"
-            android:gravity="center"
+            android:layout_gravity="center_horizontal"
             android:maxLines="10"
             android:text="list objects"
             android:textSize="22sp" />
@@ -44,17 +45,6 @@
             android:layout_gravity="center_horizontal"
             android:orientation="horizontal"
             android:padding="15dp">
-
-            <Button
-                android:id="@+id/change_button"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_margin="7dp"
-                android:background="@drawable/group_round"
-                android:backgroundTint="@color/purple_200"
-                android:insetTop="12dp"
-                android:text="rewrite" />
 
             <Button
                 android:id="@+id/pick_button2"
